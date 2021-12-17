@@ -1,0 +1,6 @@
+.ticketScreenContainer {
+  display: flex;
+}
+.ticketScreenContainer div {
+  padding-left: 10px;
+}
