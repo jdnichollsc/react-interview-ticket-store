@@ -18,25 +18,28 @@ const TicketScreen = () => {
 
     Time permitting, we can work on architecting solutions for the remainder of the dropdowns
   */
-
   return (
     <div className="ticketScreenContainer">
       <div>
         <label> Artist </label>
-        <Select value={''}>
-          <MenuItem value={''}>{''}</MenuItem>
+        <Select value={"Taylor Swift"}>
+          <MenuItem value={"Taylor Swift"}>Taylor Swift</MenuItem>
         </Select>
       </div>
       <div>
         <label> Concert </label>
-        <Select value={''}>
-          <MenuItem value={''}>{''}</MenuItem>
+        <Select value="Taylor Swift June Tour">
+          <MenuItem value="Taylor Swift June Tour">
+            Taylor Swift June Tour
+          </MenuItem>
+          <MenuItem value="Taylor Swift July Tour">
+            Taylor Swift July Tour
+          </MenuItem>
         </Select>
       </div>
       <div>
         <label> Ticket Type (Plan) </label>
-        <Select value={''}>
-          <MenuItem value={''}>{''}</MenuItem>
+        <Select value="Basic">
           <MenuItem value="Basic">Basic</MenuItem>
         </Select>
       </div>
